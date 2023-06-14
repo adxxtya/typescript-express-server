@@ -7,6 +7,7 @@
     "start": "node ./build/index.js --env=production",
     "dev": "ts-node -r tsconfig-paths/register ./src",
     "nodemon": "nodemon",
+    "quick": "tsx src/index.ts",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "build": "npx tsc",
