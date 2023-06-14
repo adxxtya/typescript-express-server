@@ -1,10 +1,10 @@
 {
   "name": "typescript-express-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "An ExpressJS server with ESLint, Prettier and Nodemon setup",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node ./build/index.js --env=production",
+    "start": "node ./build/src/index.js --env=production",
     "dev": "ts-node -r tsconfig-paths/register ./src",
     "nodemon": "nodemon",
     "quick": "tsx src/index.ts",
